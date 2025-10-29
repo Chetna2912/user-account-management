@@ -1,0 +1,49 @@
+/* Light Theme Variables */
+:root {
+  --bg-color: #faf9ff;
+  --card-bg: #fff;
+  --text-color: #2e2e3d;
+  --heading-color: #9370db;
+  --input-bg: #fff;
+  --input-border: #cbc3e3;
+  --btn-bg: #9370db;
+  --btn-hover-bg: #7b68ee;
+  --label-color: #444;
+  --navbar-bg: #9370db;
+  --navbar-link-color: #e6e0ff;
+  --alert-success-bg: #e6e0ff;
+  --alert-success-color: #5a3ebd;
+  --alert-danger-bg: #ffe6e6;
+  --alert-danger-color: #b30000;
+}
+
+/* Dark Theme Variables */
+[data-theme='dark'] {
+  --bg-color: #121212;
+  --card-bg: #1e1e2f;
+  --text-color: #e0dff1;
+  --heading-color: #ceabff;
+  --input-bg: #2c2c3d;
+  --input-border: #5a4db7;
+  --btn-bg: #7b68ee;
+  --btn-hover-bg: #9370db;
+  --label-color: #b2aeee;
+  --navbar-bg: #2e2a52;
+  --navbar-link-color: #d6ccff;
+  --alert-success-bg: #3c2f7e;
+  --alert-success-color: #ceabff;
+  --alert-danger-bg: #5f2a2a;
+  --alert-danger-color: #ffb3b3;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: var(--heading-color);
+}

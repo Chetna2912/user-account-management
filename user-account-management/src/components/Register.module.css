@@ -1,0 +1,64 @@
+.container {
+  max-width: 460px;
+  margin: 4rem auto 2rem;
+  padding: 2.5rem 2rem 3rem;
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(147, 112, 219, 0.4);
+  color: var(--text-color);
+  font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: var(--heading-color);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: 600;
+  color: var(--label-color);
+}
+
+input.form-control {
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  border: 1.5px solid var(--input-border);
+  border-radius: 12px;
+  transition: border-color 0.3s ease;
+}
+
+input.form-control::placeholder {
+  color: #8D88B8;
+}
+
+input.form-control:focus {
+  border-color: var(--heading-color);
+  box-shadow: 0 0 8px rgba(206, 171, 255, 0.5);
+  background-color: #3A3A54;
+  color: #fff;
+}
+
+.btn-primary {
+  background: var(--btn-bg);
+  border-color: var(--btn-bg);
+  color: #fff;
+  border-radius: 12px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(123, 104, 238, 0.6);
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: var(--btn-hover-bg);
+  border-color: var(--btn-hover-bg);
+}
+
+.btn-link {
+  color: var(--heading-color);
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+}

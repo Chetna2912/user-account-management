@@ -1,0 +1,65 @@
+.container {
+  max-width: 520px;
+  margin: 3rem auto 3.5rem;
+  padding: 3rem 2.5rem 3rem;
+  background: var(--card-bg);
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(147, 112, 219, 0.4);
+  color: var(--text-color);
+  font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: var(--heading-color);
+  margin-bottom: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.alert-success {
+  background-color: #3C2F7E;
+  border-color: #5A4DB7;
+  color: #CEABFF;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 0.75rem 1.25rem;
+}
+
+.alert-danger {
+  background-color: #5F2A2A;
+  border-color: #8B3A3A;
+  color: #FFB3B3;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 0.75rem 1.25rem;
+}
+
+button {
+  border-radius: 14px;
+  font-weight: 700;
+  box-shadow: 0 5px 15px rgba(147, 112, 219, 0.4);
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #7B68EE;
+  border-color: #7B68EE;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #9370DB;
+  border-color: #9370DB;
+}
+
+.btn-secondary {
+  background-color: #50497E;
+  border-color: #50497E;
+  color: #D6CCFF;
+}
+
+.btn-secondary:hover {
+  background-color: #6A5ACD;
+  border-color: #6A5ACD;
+  color: #fff;
+}
